@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+span{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Zen Dots', cursive;
+}
+.main-info{
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+    z-index: -1;
+}
+.main-info h5 {
+    background-color: red;
+    letter-spacing: 30px;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 10px;
+    width: 209px;
+    height: 44px;
+    margin-left: 330px;
+    border-radius: 10px;
+}
+.main-info h3{
+    margin-top: -90px;
+    color: whitesmoke;
+    letter-spacing: 60px;
+    font-size: 100px;
+    font-family: fantasy;
+
+}
+@media only screen and (min-width: 100px) and (max-width: 500px){
+    .main-photo{
+        background: url(images/mc.jpg);
+        background-size: 450px;
+    }
+    .main-info h3 {
+        font-size: 50px;
+        font-family: fantasy;
+        letter-spacing: 20px;
+        color: red;
+    }
+}
+.main-event{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.main-event h1 {
+    display: flex;
+    color: whitesmoke;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Zen Dots', cursive;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    /* margin-left: 50px; */
+    position: fixed;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.navbar nav a{
+    padding: 30px;
+}
+a:hover {
+    color: gold;
+    font-size: 20px;
+    transition: 1s all ease-in-out;
+}
+#main{
+    color: red;
+    font-size: 40px;
+    font: bolder;
+    font-family: 'Zen Dots', cursive;
+    border-bottom: 1px solid red;
+}
+.trending{
+    margin: 0%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+.trending h2 {
+    font-size: 60px;
+    font-family: 'Coda Caption', sans-serif;
+
+}
+.fightcoverage{
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 2px 4px 2px 4px  lightgoldenrodyellow;
+}
+.fightcoverage img:hover {
+    width: 325px;
+    transition: 1s ease-in-out;
+}
+.fightcoverage2 img {
+    border-radius: 5px;
+}
+.fightcoverage2 img:hover {
+    width: 270px;
+    transition: 1s;
+}
+.fightcoverage2 {
+    padding: 20px;
+    margin-top: -300px;
+    margin-left: 50px;
+    width: 500px;
+    box-shadow: 0px -1px 5px 8px lightgoldenrodyellow;
+    border-radius: 5px;
+}
+.fightcoverage2 span {
+    color: black;
+    font: bolder;
+    padding: 10px;
+}
+.fightcoverage3{
+    padding: 20px;
+    margin-left: 600px;
+    width: 500px;
+    box-shadow: 1px -1px 10px 5px lightgoldenrodyellow;
+}
+.fightcoverage3 img {
+    float: right;
+}
+.fightcoverage3 img:hover {
+    width: 370px;
+    transition: 1s;
+}
+.fightcoverage3 span {
+    float: left;
+    color: black;
+    font: bolder;
+    padding: 10px;
+}
+.feed {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    overflow: hidden;
+    /* background-image: url(images/vs.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+.feed2{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid lightgreen;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.feed2 h5 {
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
+    letter-spacing: 5px;
+}
+.feed h5 {
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
+    letter-spacing: 5px;
+}
+#pic1{
+    margin-left: 400px;
+}
+#pic2{
+    margin-right: 400px;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: whitesmoke;
+    justify-content:center;
+}
+.footer p {
+    letter-spacing: 3px;
+    color: lightgray;
+}

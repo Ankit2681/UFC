@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-behavior: smooth;
+}
+span{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Zen Dots', cursive;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    /* margin-left: 50px; */
+    position: fixed;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.navbar nav a{
+    padding: 30px;
+}
+a:hover {
+    color: gold;
+    font-size: 20px;
+    transition: 1s all ease-in-out;
+}
+#main{
+    color: red;
+    font-size: 40px;
+    font: bolder;
+    font-family: 'Zen Dots', cursive;
+    border-bottom: 1px solid red;
+}
+.container {
+    display: flex;
+    padding: 30px;
+}
+.fighters {
+    padding: 50px;
+}
+.fighters img {
+    border-bottom: 1px solid grey;
+}
+.fighters p {
+    color: lightgrey;
+    font: bold;
+}
+.fighters h3 {
+    font-family: 'viga';
+    letter-spacing: 5px;
+}

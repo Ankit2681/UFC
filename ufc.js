@@ -1,0 +1,1 @@
+// scrollReveal().reveal('.feed',{delay: 1000});

@@ -1,0 +1,116 @@
+body {
+    background: url(images/download.png);
+    margin: 0%;
+}
+/* .container {
+    margin-top: 100px;
+} */
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.navbar {
+    /* position: fixed; */
+    /* position: absolute; */
+    /* width: 97%; */
+    margin-top: 0%;
+    background-color: lightgreen;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.icons a {
+    font-size: 100px;
+    transition: 1s;
+}
+.icons a:hover{
+    font-size: 150px;
+
+}
+.left-icon:hover{
+    margin-left: 100px;
+    transition: 1.5s;
+}
+.right-icon:hover{
+    margin-right: 100px;
+    transition: 1.5s;
+}
+#second {
+    margin-top: -100px;
+}
+.content2 {
+    margin-top: -600px;
+    margin-left: 75px;
+    font-size: 100px;
+    color: orangered;
+}
+.content3 {
+    margin-top: -602px;
+    margin-left: 78px;
+    font-size: 102px;
+    color: black;
+}
+.content4 {
+    margin-top: -700px;
+    margin-left: 75px;
+    font-size: 80px;
+    color: orangered;
+}
+.content5 {
+    margin-top: -665px;
+    margin-left: 78px;
+    font-size: 82px;
+    color: black;
+}
+.content1 {
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+/* .content1 h1 {
+    font-family: 'Caveat', cursive;
+} */
+.content h1 {
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    animation: ani 3s infinite ;
+    animation-direction: alternate-reverse;
+    margin-left: 18%;
+    margin-right: 18%;
+    height: 5px;
+}
+@keyframes ani {
+    0%{
+        background-color: red;
+        width: 5%;
+    }
+    50%{
+        background-color: yellow;
+        width: 60%;
+    }
+    100%{
+        background-color: lightgreen;
+        width: 5%;
+    }
+    
+}
+.navbar a select{
+    border: none;
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
